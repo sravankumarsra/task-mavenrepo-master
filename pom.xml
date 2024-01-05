@@ -34,17 +34,17 @@
         <repository>
             <id>nexus</id>
             <name>student_Release</name>
-            <url>http://34.201.112.11:8081/repository/student_Release/</url>
+            <url>http://54.90.4.51:8081/repository/student_Release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>student_snapshot</name>
-            <url>http://34.201.112.11:8081/repository/student_snapshot/</url>
+            <url>http://54.90.4.51:8081/repository/student_snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
   <!-- Other properties -->
-  <sonar.host.url>http://34.239.110.61:9000/</sonar.host.url>
+  <sonar.host.url>http://44.212.29.200:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>sonar</sonar.password>
      <sonar.java.binaries>src/</sonar.java.binaries>
